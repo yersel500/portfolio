@@ -9,7 +9,7 @@ The portfolio of projects I developed
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://yersel500.github.io/portfolio/)
 
 
 ## Getting Started

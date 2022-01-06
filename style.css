@@ -38,23 +38,37 @@ a {
   font-weight: 700;
 }
 
+.logo {
+  font-family: 'Poppins';
+  line-height: 20px;
+}
+
 h1 {
+  font-family: 'Poppins';
   font-size: 40px;
   font-weight: 700;
+  line-height: 52px;
+  color: #172B4D;
+
 }
 
 p {
+  font-family: 'Poppins';
   font-size: 16px;
   font-weight: 400;
+  color: #344563;
+  line-height: 24px;
 }
 
 h2 {
+  font-family: 'Poppins';
   font-size: 16px;
   font-weight: 500;
   color: #7f8cff;
+  line-height: 24px;
 }
 
-.icons {
+.icons ul {
   display: flex;
   gap: 10px;
   padding: 10px;
