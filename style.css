@@ -26,7 +26,6 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 100px;
-
 }
 
 li {
@@ -89,7 +88,7 @@ h2 {
   gap: 12px;
   padding: 16px;
   margin: 24px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
@@ -149,7 +148,7 @@ h2 {
   font-size: 17px;
   line-height: 24px;
   color: #396df2;
-  background: #ffffff;
+  background: #fff;
   padding: 12px;
   border-radius: 8px;
   border: 1px solid #7f8cff;
@@ -166,6 +165,7 @@ h2 {
   background: #2230d2;
   border-color: #2230d2;
 }
+
 /* Using css grid to layout the projects */
 .project-wrap {
   display: grid;
@@ -177,7 +177,7 @@ h2 {
 .wrapper2 {
   display: flex;
   flex-direction: column;
-  background: #ffffff;
+  background: #fff;
   margin: 30px 0 114px 0;
   padding: 20px 20px 100px 20px;
   border-radius: 0 10px 0 0;
@@ -204,7 +204,7 @@ h2 {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #000000;
+  color: #000;
   border-bottom: 1px solid #dfe1e6;
   border-radius: 8px;
   padding: 24px 12px;
