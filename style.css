@@ -155,7 +155,12 @@ h2 {
   padding: 12px;
   border-radius: 8px;
   border: 1px solid #7f8cff;
-  clear: left;
+  clear: both;
+}
+
+.button {
+  clear: both;
+  margin-top: 50px;
 }
 
 .button1:hover {
