@@ -101,10 +101,9 @@ h2 {
 }
 
 .languages {
-  display: flex;
   margin: 0 0 24px 0;
   padding: 0;
-  gap: 8px;
+  
 }
 
 .title-project {
@@ -132,6 +131,7 @@ h2 {
 }
 
 .languages li {
+  float: left;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 12px;
