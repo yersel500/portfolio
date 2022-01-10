@@ -40,13 +40,13 @@ a {
 }
 
 .logo {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 20px;
   font-weight: 700;
 }
 
 h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
@@ -55,7 +55,7 @@ h1 {
 }
 
 p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #344563;
@@ -65,7 +65,7 @@ p {
 }
 
 h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: #7f8cff;
@@ -103,11 +103,10 @@ h2 {
 .languages {
   margin: 0 0 24px 0;
   padding: 0;
-  
 }
 
 .title-project {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
@@ -117,7 +116,7 @@ h2 {
 }
 
 .dates li {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -132,7 +131,7 @@ h2 {
 
 .languages li {
   float: left;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -142,8 +141,12 @@ h2 {
   padding: 4px 12px;
 }
 
-.button1 {
-  font-family: 'Poppins', sans-serif;
+.languages li:not(:last-child) {
+  margin-right: 8px;
+}
+
+.languages .button1 {
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -152,6 +155,7 @@ h2 {
   padding: 12px;
   border-radius: 8px;
   border: 1px solid #7f8cff;
+  clear: left;
 }
 
 .button1:hover {
@@ -184,7 +188,7 @@ h2 {
 }
 
 .wrapper2 h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
@@ -193,7 +197,7 @@ h2 {
 }
 
 .wrapper2 h4 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: #7f8cff;
@@ -210,7 +214,7 @@ h2 {
 }
 
 .skill li {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
