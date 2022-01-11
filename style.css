@@ -263,9 +263,10 @@ form .input-list {
   padding: 0;
 }
 
-form .text-input, form .new-message {
+form .text-input,
+form .new-message {
   width: 100%;
-  padding: 1;
+  padding: 1em;
   border-radius: 5px;
   border: 0;
   box-sizing: border-box;
@@ -274,7 +275,7 @@ form .text-input, form .new-message {
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 }
 
