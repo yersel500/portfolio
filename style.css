@@ -298,9 +298,17 @@ form .form-input {
 }
 
 @media only screen and (min-width: 992px) {
-  .project {
+  .project1,
+  .project3 {
     display: flex;
     flex-direction: row;
+    margin: 142px 142px 0 142px;
+  }
+
+  .project2,
+  .project4 {
+    display: flex;
+    flex-direction: row-reverse;
     margin: 142px 142px 0 142px;
   }
 
@@ -315,5 +323,40 @@ form .form-input {
     grid-gap: 0;
   }
 
+  .first {
+    margin: 25px 125px;
+  }
 
+  .my-name {
+    margin: 300px 200px 0 200px;
+  }
+
+  .wrapper2 {
+    display: flex;
+    flex-direction: row;
+    gap: 37px;
+    background: #fff;
+    margin: 30px 0 114px 0;
+    padding: 140px;
+    border-radius: 0 50px 0 0;
+    
+  }
+
+  .wrapper2 .about-me {
+    flex-grow: 4;
+    flex-basis: 0;
+    min-width: 0;
+  }
+
+  .wrapper2 .the-languages {
+    flex-grow: 7;
+    flex-basis: 0;
+    min-width: 0;
+  }
+
+  .third .skill {
+    margin-top: 100px;
+  }
+
+  
 }

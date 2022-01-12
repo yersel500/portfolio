@@ -11,7 +11,7 @@ The portfolio of projects I developed
 
 [Portfolio web](https://yersel500.github.io/portfolio/)
 
-![image](https://prnt.sc/26ckow6)
+![image](https://image.prntscr.com/image/IvIMLGxiTb-1A_AwANB3kQ.png)
 
 
 ## Getting Started
