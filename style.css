@@ -358,5 +358,18 @@ form .form-input {
     margin-top: 100px;
   }
 
-  
+  .description-contact {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  form {
+    width: 40%;
+  }
+
+  .button1 {
+    width: 33.33%;
+    margin-left: 33.33%;
+    margin-right: 33.33%;
+  }
 }
