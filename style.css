@@ -291,3 +291,29 @@ form .form-input {
   margin-bottom: 30px;
   margin-top: 20px;
 }
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width: 992px) {
+  .project {
+    display: flex;
+    flex-direction: row;
+    margin: 142px 142px 0 142px;
+  }
+
+  .project .image,
+  .project .description {
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 0;
+  }
+
+  .project-wrap {
+    grid-gap: 0;
+  }
+
+
+}
