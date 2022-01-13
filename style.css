@@ -3,15 +3,16 @@ body {
   flex-direction: column;
   margin: 0;
   padding: 0;
+  background-color: #f4f5f7;
 }
 
 .wrapper {
   display: flex;
   flex-direction: column;
-  background-image: url("./images/header-shapes.svg");
+  background: #fff url("./images/header-shapes.svg");
   background-size: cover;
-  margin: 30px 0 114px 0;
-  padding: 20px 20px 100px 20px;
+  margin: 0 0 114px 0;
+  padding: 50px 20px 100px 20px;
   border-radius: 0 0 0 10px;
 }
 
@@ -40,13 +41,13 @@ a {
 }
 
 .logo {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 20px;
   font-weight: 700;
 }
 
 h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
@@ -55,7 +56,7 @@ h1 {
 }
 
 p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #344563;
@@ -65,7 +66,7 @@ p {
 }
 
 h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: #7f8cff;
@@ -108,7 +109,7 @@ h2 {
 }
 
 .title-project {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
@@ -118,7 +119,7 @@ h2 {
 }
 
 .dates li {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -132,7 +133,7 @@ h2 {
 }
 
 .languages li {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -143,7 +144,7 @@ h2 {
 }
 
 .button1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -184,7 +185,7 @@ h2 {
 }
 
 .wrapper2 h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
@@ -193,7 +194,7 @@ h2 {
 }
 
 .wrapper2 h4 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: #7f8cff;
@@ -205,19 +206,53 @@ h2 {
 .skill {
   display: flex;
   flex-direction: column;
-  margin: 50px 0 0 0;
+  margin: 0;
   padding: 0;
+  margin-top: 20px;
 }
 
 .skill li {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   color: #000;
   border-bottom: 1px solid #dfe1e6;
-  border-radius: 8px;
   padding: 24px 12px;
+}
+
+.skill-1 li {
+  border: none;
+  margin: 50px 0 0 0;
+}
+
+.skill-logo {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 0 0 0;
+  padding: 0;
+  gap: 10px;
+}
+
+.skill-logo li {
+  border-radius: 8px;
+  padding: 6px 12px;
+  background-color: #f7f7f9;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.skill-logo .specific-language {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+}
+
+.skill-logo img {
+  height: 50px;
 }
 
 .contact-me {
@@ -231,7 +266,7 @@ h2 {
 }
 
 .title-contact {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -243,7 +278,7 @@ h2 {
 }
 
 .description-contact {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -270,7 +305,7 @@ form .new-message {
   border-radius: 5px;
   border: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -290,4 +325,114 @@ form .form-input {
 .touch2 {
   margin-bottom: 30px;
   margin-top: 20px;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width: 992px) {
+  .project1,
+  .project3 {
+    display: flex;
+    flex-direction: row;
+    margin: 142px 142px 0 142px;
+  }
+
+  .project2,
+  .project4 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 142px 142px 0 142px;
+  }
+
+  .description {
+    padding: 40px;
+  }
+
+  .project .image,
+  .project .description {
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 0;
+  }
+
+  .project-wrap {
+    grid-gap: 0;
+  }
+
+  .first {
+    margin: 25px 125px;
+  }
+
+  .my-name {
+    margin: 200px 200px 0 200px;
+  }
+
+  .wrapper2 {
+    display: flex;
+    flex-direction: row;
+    gap: 37px;
+    background: #fff;
+    margin: 30px 0 114px 0;
+    padding: 140px;
+    border-radius: 0 50px 0 0;
+  }
+
+  .wrapper2 .about-me {
+    flex-grow: 4;
+    flex-basis: 0;
+    min-width: 0;
+  }
+
+  .wrapper2 .the-languages {
+    flex-grow: 6;
+    flex-basis: 0;
+    min-width: 0;
+  }
+
+  .third {
+    margin-top: 100px;
+  }
+
+  .description-contact {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  form {
+    width: 40%;
+    margin-bottom: 100px;
+  }
+
+  .form-button {
+    width: 33.33%;
+    margin-left: 33.33%;
+    margin-right: 33.33%;
+  }
+
+  .wrapper {
+    border-radius: 0 0 0 50px;
+  }
+
+  .skill-1 li {
+    margin: 0;
+  }
+
+  .skill-logo li {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100px;
+    height: 100px;
+    padding: 12px;
+  }
+
+  .skill-logo .specific-language {
+    margin: 0 0 5px 0;
+  }
+
+  .skill-logo {
+    flex-direction: row;
+  }
 }
