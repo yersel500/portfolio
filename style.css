@@ -206,8 +206,9 @@ h2 {
 .skill {
   display: flex;
   flex-direction: column;
-  margin: 50px 0 0 0;
+  margin: 0;
   padding: 0;
+  margin-top: 20px;
 }
 
 .skill li {
@@ -217,8 +218,42 @@ h2 {
   line-height: 24px;
   color: #000;
   border-bottom: 1px solid #dfe1e6;
-  border-radius: 8px;
   padding: 24px 12px;
+}
+
+.skill-1 li {
+  border: none;
+  margin: 50px 0 0 0;
+}
+
+.skill-logo {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 0 0 0;
+  padding: 0;
+  gap: 10px;
+}
+
+.skill-logo li {
+  border-radius: 8px;
+  padding: 6px 12px;
+  background-color: #f7f7f9;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+
+}
+
+.skill-logo .specific-language {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+}
+
+.skill-logo img {
+  height: 50px;
 }
 
 .contact-me {
@@ -349,12 +384,12 @@ form .form-input {
   }
 
   .wrapper2 .the-languages {
-    flex-grow: 7;
+    flex-grow: 6;
     flex-basis: 0;
     min-width: 0;
   }
 
-  .third .skill {
+  .third {
     margin-top: 100px;
   }
 
@@ -365,9 +400,10 @@ form .form-input {
 
   form {
     width: 40%;
+    margin-bottom: 100px;
   }
 
-  .button1 {
+  .form-button {
     width: 33.33%;
     margin-left: 33.33%;
     margin-right: 33.33%;
@@ -376,4 +412,29 @@ form .form-input {
   .wrapper {
     border-radius: 0 0 0 50px;
   }
+
+  .skill-1 li {
+    margin: 0;
+  }
+
+  .skill-logo li {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100px;
+    height: 100px;
+    padding: 12px;
+  }
+
+  .skill-logo .specific-language {
+    margin: 0 0 5px 0;
+  }
+
+  .skill-logo {
+    flex-direction: row;
+  }
+
+  .description {
+    padding: 40px;
+  }
+
 }
