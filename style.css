@@ -132,23 +132,6 @@ h2 {
   color: #344563;
 }
 
-.languages li {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  color: #6070ff;
-  background: #ebebff;
-  border-radius: 8px;
-  padding: 4px 12px;
-  transition: all 0.3s ease-in-out;
-}
-
-.languages li:hover {
-  background-color: #6070ff;
-  color: #ebebff;
-}
-
 .button1 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -262,6 +245,23 @@ h2 {
 
 .skill-logo img {
   height: 50px;
+}
+
+.languages li {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 4px 12px;
+  transition: all 0.3s ease-in-out;
+}
+
+.languages li:hover {
+  background-color: #6070ff;
+  color: #ebebff;
 }
 
 .contact-me {
