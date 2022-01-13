@@ -330,6 +330,11 @@ form .form-input {
 .image {
   max-width: 100%;
   height: auto;
+  transition: transform 1s;
+}
+
+.image:hover {
+  transform: scale(1.1);
 }
 
 @media only screen and (min-width: 992px) {
@@ -435,4 +440,15 @@ form .form-input {
   .skill-logo {
     flex-direction: row;
   }
+}
+
+.my-name-title {
+  margin-left: 0;
+  animation: slidein 1.2s;
+}
+
+@keyframes slidein {
+  from { margin-left: -100%;}
+  to {margin-left: 0;}
+
 }
