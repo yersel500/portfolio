@@ -347,6 +347,10 @@ form .form-input {
     margin: 142px 142px 0 142px;
   }
 
+  .description {
+    padding: 40px;
+  }
+
   .project .image,
   .project .description {
     flex-grow: 1;
@@ -430,9 +434,5 @@ form .form-input {
 
   .skill-logo {
     flex-direction: row;
-  }
-
-  .description {
-    padding: 40px;
   }
 }
