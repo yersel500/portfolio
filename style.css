@@ -241,7 +241,6 @@ h2 {
   display: flex;
   gap: 16px;
   align-items: center;
-
 }
 
 .skill-logo .specific-language {
@@ -436,5 +435,4 @@ form .form-input {
   .description {
     padding: 40px;
   }
-
 }
