@@ -9,7 +9,7 @@ The portfolio of projects I developed
 
 ## Live Demo
 
-[Portfolio web](https://yersel500.github.io/portfolio/)
+[Click here to see the Portfolio Web](https://yersel500.github.io/portfolio/)
 
 ![image](https://image.prntscr.com/image/IvIMLGxiTb-1A_AwANB3kQ.png)
 
