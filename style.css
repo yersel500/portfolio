@@ -468,6 +468,10 @@ form .form-input {
   animation: slidein 1.2s;
 }
 
+.wrapper2 h2 {
+  width: 120px;
+}
+
 @keyframes slidein {
   from {
     margin-left: -100%;
