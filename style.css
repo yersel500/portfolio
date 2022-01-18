@@ -185,7 +185,7 @@ h2 {
   margin-bottom: 12px;
 }
 
-.wrapper2 h4 {
+.wrapper2 .lets-connect {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -203,7 +203,7 @@ h2 {
   margin-top: 20px;
 }
 
-.skill li {
+.skill h3 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -352,6 +352,10 @@ form .form-input {
 
 .image:hover {
   transform: scale(1.1);
+}
+
+.display-none {
+  display: none;
 }
 
 @media only screen and (min-width: 992px) {
