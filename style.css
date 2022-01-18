@@ -461,15 +461,15 @@ form .form-input {
   .skill-logo {
     flex-direction: row;
   }
+
+  .wrapper2 h2 {
+    width: 120px;
+  }
 }
 
 .my-name-title {
   margin-left: 0;
   animation: slidein 1.2s;
-}
-
-.wrapper2 h2 {
-  width: 120px;
 }
 
 @keyframes slidein {
