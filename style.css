@@ -29,22 +29,24 @@ body {
   align-items: center;
 }
 
-.nav-menu {
+#main-menu {
   display: flex;
   flex-direction: column;
   position: fixed;
   justify-content: flex-start;
   gap: 40px;
-  transform: translateX(-100%) ;
+  transform: translateX(-100%);
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  background-color:#6070ff; 
+  background-color: #6070ff;
   opacity: 90%;
+  margin: 0;
+  padding: 0;
 }
 
-.nav-items {
+.nav1 {
   padding-top: 100px;
 }
 
@@ -55,7 +57,7 @@ body {
   font-style: normal;
   font-weight: 600;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   padding-left: 28px;
 }
@@ -88,7 +90,7 @@ body {
   background-color: #fff;
 }
 
-.nav-menu.active {
+#main-menu.active {
   transform: translateX(0);
   transition: 0.7s ease-in-out;
 }
