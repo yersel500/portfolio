@@ -11,6 +11,13 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
   navMenu.classList.remove('active');
 }));
 
+const modal_container= document.getElementById('container_modal');
+const openBtn = document.getElementById('open');
+
+openBtn.addEventListener('click', () => {
+  modal_container.classList.toggle('show');
+});
+
 function Project(name, description, image, languages, live, source) {
 
   this.projectName=name;
@@ -45,9 +52,3 @@ function Project(name, description, image, languages, live, source) {
   
   document.getElementById('source').innerHTML = project1.projectSource;
 
-const modal_container= document.getElementById('container_modal1');
-const open = document.getElementById('open');
-
-open.addEventListener('click', () => {
-  modal_container.classList.add('show');
-});

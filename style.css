@@ -16,7 +16,7 @@ body {
   text-align:center;
 }
 
-#container-modal {
+#container_modal {
   background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   align-items: center;
@@ -31,7 +31,7 @@ body {
 
 }
 
-#container-modal.show {
+#container_modal.show {
   pointer-events: auto;
   opacity: 1;
 }
