@@ -6,6 +6,33 @@ body {
   background-color: #f4f5f7;
 }
 
+/* styling popup */
+.container-modal {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.modal {
+  background-color: #fff;
+  padding: 30px;
+  max-width: 90%;
+  max-height: 90%;
+  margin: 20px;
+  text-align:center;
+}
+
+/* finish thew popup styling */
+
 .wrapper {
   display: flex;
   flex-direction: column;
