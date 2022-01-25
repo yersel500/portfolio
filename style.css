@@ -456,6 +456,43 @@ form .form-input {
     min-width: 0;
   }
 
+  #main-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    position: relative;
+    justify-content: flex-start;
+    transform: translateX(0);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: transparent;
+    opacity: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-link {
+    color: #344563;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .nav1 {
+    padding-top: 0;
+  }
+
   .project-wrap {
     grid-gap: 0;
   }
