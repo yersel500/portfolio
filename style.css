@@ -7,7 +7,16 @@ body {
 }
 
 /* styling popup */
-.container-modal {
+.modal {
+  background-color: #fff;
+  padding: 30px;
+  max-width: 90%;
+  max-height: 90%;
+  margin: 20px;
+  text-align:center;
+}
+
+#container-modal {
   background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   align-items: center;
@@ -22,13 +31,9 @@ body {
 
 }
 
-.modal {
-  background-color: #fff;
-  padding: 30px;
-  max-width: 90%;
-  max-height: 90%;
-  margin: 20px;
-  text-align:center;
+#container-modal.show {
+  pointer-events: auto;
+  opacity: 1;
 }
 
 /* finish thew popup styling */

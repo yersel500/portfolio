@@ -44,3 +44,10 @@ function Project(name, description, image, languages, live, source) {
   document.getElementById('live').innerHTML = project1.Live;
   
   document.getElementById('source').innerHTML = project1.projectSource;
+
+const modal_container= document.getElementById('container_modal1');
+const open = document.getElementById('open');
+
+open.addEventListener('click', () => {
+  modal_container.classList.add('show');
+});
