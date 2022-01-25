@@ -8,7 +8,6 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-2KMX5G9NXD');
   </script>
   <meta charset="UTF-8" />
@@ -27,10 +26,23 @@
       <nav class="menu">
         <ul>
           <li><a href="#" class="logo">Logo</a></li>
-          <li>
-            <a href="#"><img src="./images/union.svg" alt="Hamburger logo" /></a>
+        </ul>
+        <ul class="nav-menu" id="main-menu">
+          <li class="nav-items nav1">
+            <a href="#my-projects" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-items">
+            <a href="#about-me-2" class="nav-link">About</a>
+          </li>
+          <li class="nav-items">
+            <a href="#my-contact-form-2" class="nav-link">Contact</a>
           </li>
         </ul>
+        <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
       </nav>
     </header>
 
@@ -71,7 +83,7 @@
     </main>
   </div>
 
-  <section class="project-wrap">
+  <section class="project-wrap" id="my-projects">
     <h2 class="display-none">List of Projects</h2>
     <div class="project project1">
       <img class="image image1" src="./images/portfolio-desktop/portfolio-1.png" alt="Tonic Project" />
@@ -170,7 +182,7 @@
     </div>
   </section>
 
-  <section class="wrapper2">
+  <section class="wrapper2" id="about-me-2">
     <div class="second about-me">
       <h2>
         About
@@ -246,7 +258,7 @@
     </div>
   </section>
 
-  <section class="contact-me">
+  <section class="contact-me" id="my-contact-form-2">
     <h2 class="title-contact">Contact me</h2>
     <p class="description-contact">
       If you have an application you are interested in developing, a feature
@@ -273,6 +285,7 @@
       </ul>
     </form>
   </section>
+  <script src="script.js"></script>
 </body>
 
 </html>
