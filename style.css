@@ -11,7 +11,7 @@ body {
   background-color: #fff;
   padding: 20px;
   max-width: 80%;
-  max-height: 90%;
+  height: fit-content;
   border-radius: 1rem;
 }
 
@@ -53,14 +53,24 @@ body {
 
 .img-container {
   max-width: 100%;
-  height: auto;
+  height: 80%;
   justify-self: center;
   border: 3px solid blue;
 }
 
 .img-modal {
   max-width: 100%;
-  height: auto;
+  height: fit-content;
+}
+
+.lg-desktop {
+  display: none;
+}
+
+.modal-button {
+  display: flex;
+  justify-content: center;
+  gap: 	20px;
 }
 
 /* finish thew popup styling */
@@ -563,7 +573,27 @@ form .form-input {
 /* start thew popup styling */
   .img-modal {
     min-width: 100%;
-    height: 400px;
+    height: 300px;
+  }
+
+  .description-modal {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .lg-desktop {
+    display: block;
+  }
+
+  .languages-modal {
+    min-width: 300px;
+    flex-wrap: wrap;
+  }
+
+  .modal-button {
+    margin-top: 30px;
+    justify-self: flex-end;
   }
   
   /* finish thew popup styling */
