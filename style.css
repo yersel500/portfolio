@@ -6,6 +6,72 @@ body {
   background-color: #f4f5f7;
 }
 
+/* styling popup */
+.modal {
+  background-color: #fff;
+  padding: 20px;
+  max-width: 80%;
+  border-radius: 1rem;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-b {
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 1.7rem;
+  color: #67798e;
+  align-self: flex-start;
+  padding-top: 0.5rem;
+}
+
+.container-modal1 {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container-modal1.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.img-container {
+  max-width: 100%;
+  height: 80%;
+  justify-self: center;
+}
+
+.img-modal {
+  max-width: 100%;
+}
+
+.lg-desktop {
+  display: none;
+}
+
+.modal-button {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* finish thew popup styling */
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -52,7 +118,7 @@ body {
 
 .nav-link {
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
@@ -475,7 +541,7 @@ form .form-input {
 
   .nav-link {
     color: #344563;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -500,6 +566,34 @@ form .form-input {
   .first {
     margin: 25px 125px;
   }
+
+  /* start thew popup styling */
+  .img-modal {
+    min-width: 100%;
+    height: 300px;
+  }
+
+  .description-modal {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .lg-desktop {
+    display: block;
+  }
+
+  .languages-modal {
+    min-width: 300px;
+    flex-wrap: wrap;
+  }
+
+  .modal-button {
+    margin-top: 30px;
+    justify-self: flex-end;
+  }
+
+  /* finish thew popup styling */
 
   .my-name {
     margin: 200px 200px 0 200px;
