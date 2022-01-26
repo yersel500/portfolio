@@ -11,7 +11,6 @@ body {
   background-color: #fff;
   padding: 20px;
   max-width: 80%;
-  height: fit-content;
   border-radius: 1rem;
 }
 
@@ -59,7 +58,6 @@ body {
 
 .img-modal {
   max-width: 100%;
-  height: fit-content;
 }
 
 .lg-desktop {
@@ -69,7 +67,7 @@ body {
 .modal-button {
   display: flex;
   justify-content: center;
-  gap: 	20px;
+  gap: 20px;
 }
 
 /* finish thew popup styling */
@@ -120,7 +118,7 @@ body {
 
 .nav-link {
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
@@ -543,7 +541,7 @@ form .form-input {
 
   .nav-link {
     color: #344563;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -569,7 +567,7 @@ form .form-input {
     margin: 25px 125px;
   }
 
-/* start thew popup styling */
+  /* start thew popup styling */
   .img-modal {
     min-width: 100%;
     height: 300px;
@@ -594,7 +592,7 @@ form .form-input {
     margin-top: 30px;
     justify-self: flex-end;
   }
-  
+
   /* finish thew popup styling */
 
   .my-name {
