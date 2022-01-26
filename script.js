@@ -45,6 +45,21 @@ close2.addEventListener('click', () => {
 
 // finish activation popup 2
 
+// Activate popup 3
+
+const open3 = document.getElementById('open3');
+const modal_container3= document.getElementById('container_modal3');
+const close3 = document.getElementById('close3');
+
+
+open3.addEventListener('click', () => {
+  modal_container3.classList.add('show');
+});
+
+close3.addEventListener('click', () => {
+  modal_container3.classList.remove('show');
+});
+
 function Project(name, description, image, languages, live, source) {
 
   this.projectName=name;
@@ -141,3 +156,57 @@ function Project(name, description, image, languages, live, source) {
   document.getElementById('live-2-m').href = project2m.projectLive;
   
   document.getElementById('source-2-m').href = project2m.projectSource;
+
+  const project3 = new Project('Tonic', 'A daily selection of privately personalized reads; no accounts or sign-ups required.', './images/portfolio-desktop/portfolio-3.png', {lg1: 'html', lg2: 'css', lg3: 'javaScript'}, 'https://yersel500.github.io/portfolio/', 'https://github.com/yersel500/portfolio');
+  
+  document.getElementById('title3').innerHTML = project3.projectName;
+  
+  document.getElementById('descrip3').innerHTML = project3.projectDescription;
+  
+  document.getElementById('img3').src = project3.projectImage;
+  
+  document.getElementById('lg1-3').innerHTML = project3.projectLanguages.lg1;
+  
+  document.getElementById('lg2-3').innerHTML = project3.projectLanguages.lg2;
+  
+  document.getElementById('lg3-3').innerHTML = project3.projectLanguages.lg3;
+
+  const project3m = new Project('Tonic', "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", './images/portfolio-desktop/portfolio-3.png', {lg1: 'html', lg2: 'css', lg3: 'javaScript', lg4: 'github', lg5: 'ruby', lg6: ' bootstraps'}, 'https://yersel500.github.io/portfolio/', 'https://github.com/yersel500/portfolio');
+  
+  document.getElementById('title3-m').innerHTML = project3m.projectName;
+  
+  document.getElementById('descrip3-m').innerHTML = project3m.projectDescription;
+  
+  document.getElementById('img3-m').src = project3m.projectImage;
+  
+  document.getElementById('lg1-3-m').innerHTML = project3m.projectLanguages.lg1;
+  
+  document.getElementById('lg2-3-m').innerHTML = project3m.projectLanguages.lg2;
+  
+  document.getElementById('lg3-3-m').innerHTML = project3m.projectLanguages.lg3;
+
+  document.getElementById('lg4-3-m').innerHTML = project3m.projectLanguages.lg4;
+  
+  document.getElementById('lg5-3-m').innerHTML = project3m.projectLanguages.lg5;
+  
+  document.getElementById('lg6-3-m').innerHTML = project3m.projectLanguages.lg6;
+  
+  document.getElementById('live-3-m').href = project3m.projectLive;
+  
+  document.getElementById('source-3-m').href = project3m.projectSource;
+
+  // project 4 
+
+  const project4 = new Project('Tonic', 'A daily selection of privately personalized reads; no accounts or sign-ups required.', './images/portfolio-desktop/portfolio-4.png', {lg1: 'html', lg2: 'css', lg3: 'javaScript'}, 'https://yersel500.github.io/portfolio/', 'https://github.com/yersel500/portfolio');
+  
+  document.getElementById('title4').innerHTML = project4.projectName;
+  
+  document.getElementById('descrip4').innerHTML = project4.projectDescription;
+  
+  document.getElementById('img4').src = project4.projectImage;
+  
+  document.getElementById('lg1-4').innerHTML = project4.projectLanguages.lg1;
+  
+  document.getElementById('lg2-4').innerHTML = project4.projectLanguages.lg2;
+  
+  document.getElementById('lg3-4').innerHTML = project4.projectLanguages.lg3;
