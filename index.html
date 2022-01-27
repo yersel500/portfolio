@@ -428,13 +428,13 @@
       that you need built or a project that needs coding. I’d love to help
       with it
     </p>
-    <form action="https://formspree.io/f/mlezgrdz" method="post">
+    <form action="https://formspree.io/f/mlezgrdz" method="post" id="form" novalidate>
       <ul class="input-list">
         <li class="form-input">
           <input type="text" name="name" placeholder="Enter your name" required maxlength="30" class="text-input" />
         </li>
         <li class="form-input">
-          <input type="email" name="_replyto" placeholder="Enter your email" required class="text-input" />
+          <input id="myemail" type="email" name="_replyto" placeholder="Enter your email" required class="text-input" />
         </li>
         <li class="form-input">
           <textarea name="message" placeholder="Write your message" required class="new-message"
@@ -443,9 +443,12 @@
         <li class="touch2">
           <button type="submit" class="button1 form-button">
             Get in Touch
-          </button>
+          </button>        
         </li>
       </ul>
+      <div class="newmessage">
+        <small id="small1">Error message</small>
+      </div>
     </form>
   </section>
   <script src="script.js"></script>

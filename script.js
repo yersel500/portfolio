@@ -261,3 +261,48 @@ document.getElementById('lg6-4-m').innerHTML = project4m.projectLanguages.lg6;
 document.getElementById('live-4-m').href = project4m.projectLive;
 
 document.getElementById('source-4-m').href = project4m.projectSource;
+
+// Validation form
+
+const form = document.getElementById('form');
+const myemail = document.getElementById('myemail');
+
+function setErrorFor(input, message) {
+  const small = document.getElementById('small1');
+  small.innerText = message;
+  small.classList.add('error');
+}
+
+function isEmail(email) {
+  return /^(([^<>()\]\\.,;:\s@"]+(\.[^<>()\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+}
+
+function setSuccessFor(input, message) {
+  const small = document.getElementById('small1');
+  small.innerText = message;
+  small.classList.remove('error');
+}
+
+function checkEmail() {
+  const myemailValue = myemail.value.trim();
+
+  if (myemailValue === '') {
+    setErrorFor(myemail, 'Email cannot be blank');
+  } else if (myemailValue.toLowerCase() !== myemailValue) {
+    setErrorFor(myemail, 'All character in the email should be lower case');
+    // return false;
+  } else if (!isEmail(myemailValue)) {
+    setErrorFor(myemail, 'Email is not valid');
+    // return false;
+  } else {
+    setSuccessFor(myemail, '');
+  }
+
+  return !(myemailValue === '' || myemailValue.toLowerCase() !== myemailValue || !isEmail(myemailValue));
+}
+
+form.addEventListener('submit', (e) => {
+  if (!checkEmail()) {
+    e.preventDefault();
+  }
+});
