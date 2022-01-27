@@ -261,3 +261,34 @@ document.getElementById('lg6-4-m').innerHTML = project4m.projectLanguages.lg6;
 document.getElementById('live-4-m').href = project4m.projectLive;
 
 document.getElementById('source-4-m').href = project4m.projectSource;
+
+// Validation form
+
+const form = document.getElementById('form');
+const myemail = document.getElementById('myemail');
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  checkEmail();
+});
+
+function checkEmail() {
+  const myemailValue = myemail.value.trim();
+  
+
+  if (myemailValue === '') {
+    setErrorFor(myemail, 'Email cannot be blank')
+  } else if (myemailValue.toLowerCase() !== myemailValue){
+    setErrorFor(myemail, 'All character in the email should be lower case')
+  } else {
+    // setSuccessFor(myemail);
+  }
+}
+
+function setErrorFor(input, message) {
+  const small = document.getElementById('small1')
+  small.innerText = message;
+  small.classList.add('error');
+}
+
+function setSuccessFor(input)

@@ -6,6 +6,18 @@ body {
   background-color: #f4f5f7;
 }
 
+/* Style error message */
+
+small {
+  visibility: hidden;
+  color: #fff;
+  text-align: center;
+}
+
+small.error {
+  visibility: visible;
+}
+
 /* styling popup */
 .modal {
   background-color: #fff;
