@@ -280,8 +280,8 @@ function checkEmail() {
     setErrorFor(myemail, 'Email cannot be blank')
   } else if (myemailValue.toLowerCase() !== myemailValue){
     setErrorFor(myemail, 'All character in the email should be lower case')
-  } else {
-    // setSuccessFor(myemail);
+  } else if (!isEmail(myemailValue)) {
+    setErrorFor(myemail, 'Email is not valid');
   }
 }
 
@@ -291,4 +291,6 @@ function setErrorFor(input, message) {
   small.classList.add('error');
 }
 
-function setSuccessFor(input)
+function isEmail(email) {
+	return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+}
