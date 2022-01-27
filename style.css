@@ -10,10 +10,13 @@ body {
 
 small {
   visibility: hidden;
-  color: #fff;
+  color: rgb(241, 28, 28);
+  background-color: rgb(219, 219, 253);
+  border-radius: 0.15rem;
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
+  padding: 0.15rem;
 }
 
 small.error {
