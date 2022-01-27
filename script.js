@@ -267,30 +267,31 @@ document.getElementById('source-4-m').href = project4m.projectSource;
 const form = document.getElementById('form');
 const myemail = document.getElementById('myemail');
 
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
-  checkEmail();
-});
-
-function checkEmail() {
-  const myemailValue = myemail.value.trim();
-  
-
-  if (myemailValue === '') {
-    setErrorFor(myemail, 'Email cannot be blank')
-  } else if (myemailValue.toLowerCase() !== myemailValue){
-    setErrorFor(myemail, 'All character in the email should be lower case')
-  } else if (!isEmail(myemailValue)) {
-    setErrorFor(myemail, 'Email is not valid');
-  }
-}
-
 function setErrorFor(input, message) {
-  const small = document.getElementById('small1')
+  const small = document.getElementById('small1');
   small.innerText = message;
   small.classList.add('error');
 }
 
 function isEmail(email) {
-	return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+  return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
 }
+
+function checkEmail() {
+  const myemailValue = myemail.value.trim(); 
+
+  if (myemailValue === '') {
+    setErrorFor(myemail, 'Email cannot be blank');
+  }
+  else if (myemailValue.toLowerCase() !== myemailValue) {
+    setErrorFor(myemail, 'All character in the email should be lower case');
+  }
+  else if (!isEmail(myemailValue)) {
+    setErrorFor(myemail, 'Email is not valid');
+  } 
+}
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  checkEmail();
+});
