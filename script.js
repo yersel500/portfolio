@@ -274,21 +274,19 @@ function setErrorFor(input, message) {
 }
 
 function isEmail(email) {
-  return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+  return /^(([^<>()\]\\.,;:\s@"]+(\.[^<>()\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
 }
 
 function checkEmail() {
-  const myemailValue = myemail.value.trim(); 
+  const myemailValue = myemail.value.trim();
 
   if (myemailValue === '') {
     setErrorFor(myemail, 'Email cannot be blank');
-  }
-  else if (myemailValue.toLowerCase() !== myemailValue) {
+  } else if (myemailValue.toLowerCase() !== myemailValue) {
     setErrorFor(myemail, 'All character in the email should be lower case');
-  }
-  else if (!isEmail(myemailValue)) {
+  } else if (!isEmail(myemailValue)) {
     setErrorFor(myemail, 'Email is not valid');
-  } 
+  }
 }
 
 form.addEventListener('submit', (e) => {
