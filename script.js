@@ -80,10 +80,10 @@ function Project(name, description, image, languages, live, source) {
   this.projectSource = source;
 }
 
-const project1 = new Project('Tonic', 'A daily selection of privately personalized reads; no accounts or sign-ups required.', './images/portfolio-desktop/portfolio-1.png', {
+const project1 = new Project('To Do List', 'A To Do List app to improve the control of your tasks.', './images/to-do-list.png', {
   lg1: 'html', lg2: 'css', lg3: 'javaScript',
 },
-'https://yersel500.github.io/portfolio/', 'https://github.com/yersel500/portfolio');
+'https://yersel500.github.io/to-do-list-review/dist/', 'https://github.com/yersel500/to-do-list-review');
 
 document.getElementById('title1').innerHTML = project1.projectName;
 
@@ -101,10 +101,10 @@ document.getElementById('lg3').innerHTML = project1.projectLanguages.lg3;
 
 // document.getElementById('source').innerHTML = project1.projectSource;
 
-const project1m = new Project('Tonic', "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", './images/portfolio-desktop/portfolio-1.png', {
+const project1m = new Project('To Do List', "A To Do List app to improve the control of your tasks. You can add, delete and change the status of each task from pending to complete.", './images/pop-up/to-do-list.png', {
   lg1: 'html', lg2: 'css', lg3: 'javaScript', lg4: 'github', lg5: 'ruby', lg6: ' bootstraps',
 },
-'https://yersel500.github.io/portfolio/', 'https://github.com/yersel500/portfolio');
+'https://yersel500.github.io/to-do-list-review/dist/', 'https://github.com/yersel500/to-do-list-review');
 
 document.getElementById('title1-m').innerHTML = project1m.projectName;
 
@@ -128,10 +128,10 @@ document.getElementById('live-m').href = project1m.projectLive;
 
 document.getElementById('source-m').href = project1m.projectSource;
 
-const project2 = new Project('Multi-Post Stories', 'A daily selection of privately personalized reads; no accounts or sign-ups required.', './images/portfolio-desktop/portfolio-2.png', {
+const project2 = new Project('Crypto Congress', 'Crypto Congress is back for its third edition on 15 October 2022 and once again will be hosted online with controversial speakers and discussions.', './images/crypto-congress.png', {
   lg1: 'html', lg2: 'css', lg3: 'javaScript',
 },
-'https://yersel500.github.io/portfolio/', 'https://github.com/yersel500/portfolio');
+'https://yersel500.github.io/capstone-project-yh/index.html', 'https://github.com/yersel500/capstone-project-yh');
 
 document.getElementById('title2').innerHTML = project2.projectName;
 
@@ -145,10 +145,10 @@ document.getElementById('lg2-2').innerHTML = project2.projectLanguages.lg2;
 
 document.getElementById('lg3-2').innerHTML = project2.projectLanguages.lg3;
 
-const project2m = new Project('Multi-Post Stories', "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", './images/portfolio-desktop/portfolio-2.png', {
+const project2m = new Project('Crypto Congress', "Crypto Congress is back for its third edition on 15 October 2022 and once again will be hosted online with controversial speakers and discussions.", './images/pop-up/crypto-congress.png', {
   lg1: 'html', lg2: 'css', lg3: 'javaScript', lg4: 'github', lg5: 'ruby', lg6: ' bootstraps',
 },
-'https://yersel500.github.io/portfolio/', 'https://github.com/yersel500/portfolio');
+'https://yersel500.github.io/capstone-project-yh/index.html', 'https://github.com/yersel500/capstone-project-yh');
 
 document.getElementById('title2-m').innerHTML = project2m.projectName;
 
