@@ -80,10 +80,18 @@ function Project(name, description, image, languages, live, source) {
   this.projectSource = source;
 }
 
-const project1 = new Project('To Do List', 'A To Do List app to improve the control of your tasks.', 'https://img001.prntscr.com/file/img001/WUxSNjQESdGey_BAOxaPUQ.png', {
-  lg1: 'html', lg2: 'css', lg3: 'javaScript',
-},
-'https://yersel500.github.io/to-do-list-review/dist/', 'https://github.com/yersel500/to-do-list-review');
+const project1 = new Project(
+  'Tour Hunter App',
+  'A website for all fans visiting tourist places. An admin can create or delete tours and a client can book tours by selecting the package and the date they want the tour.',
+  'https://img001.prntscr.com/file/img001/n9dXlRP8SdqhjwkvldROjA.png',
+  {
+    lg1: 'Ruby on Rails',
+    lg2: 'Ruby',
+    lg3: 'React',
+  },
+  'https://tourhunterapp.herokuapp.com',
+  'https://github.com/yersel500/tour-hunter-api',
+);
 
 document.getElementById('title1').innerHTML = project1.projectName;
 
@@ -97,14 +105,21 @@ document.getElementById('lg2').innerHTML = project1.projectLanguages.lg2;
 
 document.getElementById('lg3').innerHTML = project1.projectLanguages.lg3;
 
-// document.getElementById('live').innerHTML = project1.projectLive;
-
-// document.getElementById('source').innerHTML = project1.projectSource;
-
-const project1m = new Project('To Do List', 'A To Do List app to improve the control of your tasks. You can add, delete and change the status of each task from pending to complete.', 'https://img001.prntscr.com/file/img001/7yT-DC4uSR-Hoe-fGua7MQ.png', {
-  lg1: 'html', lg2: 'css', lg3: 'javaScript', lg4: 'github', lg5: 'ruby', lg6: ' bootstraps',
-},
-'https://yersel500.github.io/to-do-list-review/dist/', 'https://github.com/yersel500/to-do-list-review');
+const project1m = new Project(
+  'Tour Hunter App',
+  'A website for all fans visiting tourist places. An admin can create or delete tours and a client can book tours by selecting the package and the date they want the tour.',
+  'https://img001.prntscr.com/file/img001/wNkRI07sQ9G6nMF82Kezyw.png',
+  {
+    lg1: 'Ruby',
+    lg2: 'Ruby on Rails',
+    lg3: 'Postgres',
+    lg4: 'React',
+    lg5: 'Github',
+    lg6: ' Tailwind',
+  },
+  'https://tourhunterapp.herokuapp.com',
+  'https://github.com/yersel500/tour-hunter-api',
+);
 
 document.getElementById('title1-m').innerHTML = project1m.projectName;
 
@@ -128,10 +143,18 @@ document.getElementById('live-m').href = project1m.projectLive;
 
 document.getElementById('source-m').href = project1m.projectSource;
 
-const project2 = new Project('Crypto Congress', 'Crypto Congress is back for its third edition on 15 October 2022 and once again will be hosted online with controversial speakers and discussions.', 'https://img001.prntscr.com/file/img001/38PQbilBQAmfuOGkSfJVCQ.png', {
-  lg1: 'html', lg2: 'css', lg3: 'javaScript',
-},
-'https://yersel500.github.io/capstone-project-yh/index.html', 'https://github.com/yersel500/capstone-project-yh');
+const project2 = new Project(
+  'Crypto Congress',
+  'Crypto Congress is back for its third edition on 15 October 2022 and once again will be hosted online with controversial speakers and discussions.',
+  'https://img001.prntscr.com/file/img001/38PQbilBQAmfuOGkSfJVCQ.png',
+  {
+    lg1: 'html',
+    lg2: 'css',
+    lg3: 'javaScript',
+  },
+  'https://yersel500.github.io/capstone-project-yh/index.html',
+  'https://github.com/yersel500/capstone-project-yh',
+);
 
 document.getElementById('title2').innerHTML = project2.projectName;
 
@@ -145,10 +168,21 @@ document.getElementById('lg2-2').innerHTML = project2.projectLanguages.lg2;
 
 document.getElementById('lg3-2').innerHTML = project2.projectLanguages.lg3;
 
-const project2m = new Project('Crypto Congress', 'Crypto Congress is back for its third edition on 15 October 2022 and once again will be hosted online with controversial speakers and discussions.', 'https://img001.prntscr.com/file/img001/e7W7M1bOSwygAEQ1JCTXcA.png', {
-  lg1: 'html', lg2: 'css', lg3: 'javaScript', lg4: 'github', lg5: 'ruby', lg6: ' bootstraps',
-},
-'https://yersel500.github.io/capstone-project-yh/index.html', 'https://github.com/yersel500/capstone-project-yh');
+const project2m = new Project(
+  'Crypto Congress',
+  'Crypto Congress is back for its third edition on 15 October 2022 and once again will be hosted online with controversial speakers and discussions.',
+  'https://img001.prntscr.com/file/img001/e7W7M1bOSwygAEQ1JCTXcA.png',
+  {
+    lg1: 'html',
+    lg2: 'css',
+    lg3: 'javaScript',
+    lg4: 'github',
+    lg5: 'ruby',
+    lg6: ' bootstraps',
+  },
+  'https://yersel500.github.io/capstone-project-yh/index.html',
+  'https://github.com/yersel500/capstone-project-yh',
+);
 
 document.getElementById('title2-m').innerHTML = project2m.projectName;
 
@@ -172,10 +206,18 @@ document.getElementById('live-2-m').href = project2m.projectLive;
 
 document.getElementById('source-2-m').href = project2m.projectSource;
 
-const project3 = new Project('Space Travelers Hub', 'A website that work with real live data from the SpaceX API. The users can book rockets and join selected space missions.', 'https://img001.prntscr.com/file/img001/Pe8uRiPzRjqArDYov54jiQ.png', {
-  lg1: 'React', lg2: 'Redux', lg3: 'SpaceX API',
-},
-'https://yersel500.github.io/portfolio/', 'https://github.com/yersel500/portfolio');
+const project3 = new Project(
+  'Space Travelers Hub',
+  'A website that work with real live data from the SpaceX API. The users can book rockets and join selected space missions.',
+  'https://img001.prntscr.com/file/img001/Pe8uRiPzRjqArDYov54jiQ.png',
+  {
+    lg1: 'React',
+    lg2: 'Redux',
+    lg3: 'SpaceX API',
+  },
+  'https://yersel500.github.io/portfolio/',
+  'https://github.com/yersel500/portfolio',
+);
 
 document.getElementById('title3').innerHTML = project3.projectName;
 
@@ -189,10 +231,21 @@ document.getElementById('lg2-3').innerHTML = project3.projectLanguages.lg2;
 
 document.getElementById('lg3-3').innerHTML = project3.projectLanguages.lg3;
 
-const project3m = new Project('Space Travelers Hub', 'A website that work with real live data from the SpaceX API. The users can book rockets and join selected space missions.', 'https://img001.prntscr.com/file/img001/XfqTzVKkQ5STstXUJL4XHA.png', {
-  lg1: 'React', lg2: 'Redux', lg3: 'SpaceX API', lg4: 'github', lg5: 'Router', lg6: 'css',
-},
-'https://loquacious-axolotl-f182b5.netlify.app/', 'https://github.com/yersel500/space-travelers-hub');
+const project3m = new Project(
+  'Space Travelers Hub',
+  'A website that work with real live data from the SpaceX API. The users can book rockets and join selected space missions.',
+  'https://img001.prntscr.com/file/img001/XfqTzVKkQ5STstXUJL4XHA.png',
+  {
+    lg1: 'React',
+    lg2: 'Redux',
+    lg3: 'SpaceX API',
+    lg4: 'github',
+    lg5: 'Router',
+    lg6: 'css',
+  },
+  'https://loquacious-axolotl-f182b5.netlify.app/',
+  'https://github.com/yersel500/space-travelers-hub',
+);
 
 document.getElementById('title3-m').innerHTML = project3m.projectName;
 
@@ -218,10 +271,18 @@ document.getElementById('source-3-m').href = project3m.projectSource;
 
 // project 4
 
-const project4 = new Project('Math Magicians', 'A website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.', 'https://img001.prntscr.com/file/img001/P5wS6mg7TL2492U9eXmu0g.png', {
-  lg1: 'React', lg2: 'Router', lg3: 'css',
-},
-'https://math-magicians-yersel.herokuapp.com/', 'https://github.com/yersel500/math-magicians');
+const project4 = new Project(
+  'Math Magicians',
+  'A website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.',
+  'https://img001.prntscr.com/file/img001/P5wS6mg7TL2492U9eXmu0g.png',
+  {
+    lg1: 'React',
+    lg2: 'Router',
+    lg3: 'css',
+  },
+  'https://math-magicians-yersel.herokuapp.com/',
+  'https://github.com/yersel500/math-magicians',
+);
 
 document.getElementById('title4').innerHTML = project4.projectName;
 
@@ -235,10 +296,21 @@ document.getElementById('lg2-4').innerHTML = project4.projectLanguages.lg2;
 
 document.getElementById('lg3-4').innerHTML = project4.projectLanguages.lg3;
 
-const project4m = new Project('Math Magicians', 'A website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.', 'https://img001.prntscr.com/file/img001/BtELpewwRp-bjkMni1Jfiw.png', {
-  lg1: 'React', lg2: 'Router', lg3: 'css', lg4: 'github', lg5: 'javascript', lg6: ' Jest',
-},
-'https://math-magicians-yersel.herokuapp.com/', 'https://github.com/yersel500/math-magicians');
+const project4m = new Project(
+  'Math Magicians',
+  'A website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.',
+  'https://img001.prntscr.com/file/img001/BtELpewwRp-bjkMni1Jfiw.png',
+  {
+    lg1: 'React',
+    lg2: 'Router',
+    lg3: 'css',
+    lg4: 'github',
+    lg5: 'javascript',
+    lg6: ' Jest',
+  },
+  'https://math-magicians-yersel.herokuapp.com/',
+  'https://github.com/yersel500/math-magicians',
+);
 
 document.getElementById('title4-m').innerHTML = project4m.projectName;
 
@@ -274,7 +346,9 @@ function setErrorFor(input, message) {
 }
 
 function isEmail(email) {
-  return /^(([^<>()\]\\.,;:\s@"]+(\.[^<>()\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+  return /^(([^<>()\]\\.,;:\s@"]+(\.[^<>()\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(
+    email,
+  );
 }
 
 function setSuccessFor(input, message) {
@@ -298,7 +372,11 @@ function checkEmail() {
     setSuccessFor(myemail, '');
   }
 
-  return !(myemailValue === '' || myemailValue.toLowerCase() !== myemailValue || !isEmail(myemailValue));
+  return !(
+    myemailValue === ''
+    || myemailValue.toLowerCase() !== myemailValue
+    || !isEmail(myemailValue)
+  );
 }
 
 form.addEventListener('submit', (e) => {
